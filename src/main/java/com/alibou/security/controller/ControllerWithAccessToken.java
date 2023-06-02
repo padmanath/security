@@ -14,6 +14,7 @@ public class ControllerWithAccessToken {
   @GetMapping("/secure")
   public ResponseEntity<String> sayHello() {
 	  
+	  
     return ResponseEntity.ok("Hello from secured endpoint");
   }
   
